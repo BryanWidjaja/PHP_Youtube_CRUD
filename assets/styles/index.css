@@ -1,0 +1,39 @@
+.video-container {
+  flex-wrap: wrap;
+  gap: 1rem;
+  row-gap: 0;
+  padding: calc(10vh + 1rem) 1rem 1rem 1rem;
+}
+
+.video-card {
+  height: 42.5vh;
+  flex: 0 1 calc(25% - 0.75rem);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.video-info-container {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.video-title {
+  font-weight: 500;
+}
+
+.video-creator {
+  font-size: 0.75rem;
+  color: gray;
+}

@@ -1,0 +1,56 @@
+.navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 30;
+  border-bottom: 0.1rem solid var(--lightgray);
+  background-color: white;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 2.5%;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.login-btn {
+  position: absolute;
+  right: 2.5%;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 2.5%;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  border: 0.1rem solid var(--midgray);
+  background-color: white;
+  color: gray;
+  font-weight: 600;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  cursor: pointer;
+}
+
+.search-input {
+  width: 35%;
+  background-color: var(--lightgray);
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}

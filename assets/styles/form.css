@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 3.5rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.75rem #00000015;
+  gap: 1rem;
+  width: 30%;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.05rem solid gray;
+}
+
+.redirect {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.redirect a {
+  color: red;
+}
+
+#submit-btn {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.home-btn {
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: gray;
+  color: white;
+  font-weight: 600;
+}
